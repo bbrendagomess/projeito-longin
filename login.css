@@ -1,0 +1,31 @@
+html, body{
+    padding: 0%;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(121, 59, 184);
+    display: flex;/*Comportamento do elemento na página*/
+    font-family: verdana;
+}
+
+/*Estilização do container*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+   background-color: aliceblue;
+   padding: 30px;
+   padding-top: 0;
+   border-radius: 20px;
+   color: rgb(58, 4, 78);
+   box-shadow: 0 0 15px black;
+}
+h3{
+    text-align: center;
+}
